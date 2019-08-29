@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

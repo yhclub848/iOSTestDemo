@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		82CFCF302317D78800739941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF2F2317D78800739941 /* AppDelegate.m */; };
-		82CFCF332317D78800739941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF322317D78800739941 /* ViewController.m */; };
 		82CFCF362317D78800739941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CFCF342317D78800739941 /* Main.storyboard */; };
 		82CFCF382317D78A00739941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CFCF372317D78A00739941 /* Assets.xcassets */; };
 		82CFCF3B2317D78A00739941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CFCF392317D78A00739941 /* LaunchScreen.storyboard */; };
 		82CFCF3E2317D78A00739941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF3D2317D78A00739941 /* main.m */; };
 		82CFCF482317D78B00739941 /* iOSTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF472317D78B00739941 /* iOSTestDemoTests.m */; };
 		82CFCF532317D78B00739941 /* iOSTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF522317D78B00739941 /* iOSTestDemoUITests.m */; };
+		82CFCF622317ED4A00739941 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CFCF612317ED4A00739941 /* HomeViewController.m */; };
 		F8E62278F0D3C2EE5856978E /* libPods-iOSTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB0D5552F9C022207B4D063 /* libPods-iOSTestDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,6 @@
 		82CFCF2B2317D78800739941 /* iOSTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CFCF2E2317D78800739941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82CFCF2F2317D78800739941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		82CFCF312317D78800739941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82CFCF322317D78800739941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82CFCF352317D78800739941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82CFCF372317D78A00739941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CFCF3A2317D78A00739941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		82CFCF4E2317D78B00739941 /* iOSTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CFCF522317D78B00739941 /* iOSTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTestDemoUITests.m; sourceTree = "<group>"; };
 		82CFCF542317D78B00739941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CFCF602317ED4A00739941 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		82CFCF612317ED4A00739941 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		AEB0D5552F9C022207B4D063 /* libPods-iOSTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F618CF35D88D9E9866A4A3A7 /* Pods-iOSTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTestDemo/Pods-iOSTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +119,8 @@
 			children = (
 				82CFCF2E2317D78800739941 /* AppDelegate.h */,
 				82CFCF2F2317D78800739941 /* AppDelegate.m */,
-				82CFCF312317D78800739941 /* ViewController.h */,
-				82CFCF322317D78800739941 /* ViewController.m */,
+				82CFCF602317ED4A00739941 /* HomeViewController.h */,
+				82CFCF612317ED4A00739941 /* HomeViewController.m */,
 				82CFCF342317D78800739941 /* Main.storyboard */,
 				82CFCF372317D78A00739941 /* Assets.xcassets */,
 				82CFCF392317D78A00739941 /* LaunchScreen.storyboard */,
@@ -327,9 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CFCF332317D78800739941 /* ViewController.m in Sources */,
 				82CFCF3E2317D78A00739941 /* main.m in Sources */,
 				82CFCF302317D78800739941 /* AppDelegate.m in Sources */,
+				82CFCF622317ED4A00739941 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  iOSTestDemo
 //
 //  Created by maxudong on 2019/8/29.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
